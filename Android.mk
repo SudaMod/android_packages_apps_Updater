@@ -30,7 +30,6 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.v7.preference \
     --extra-packages android.support.v7.recyclerview
 
-LOCAL_AAPT_FLAGS += --rename-manifest-package com.sudamod.updater
 LOCAL_PACKAGE_NAME := Updater
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
