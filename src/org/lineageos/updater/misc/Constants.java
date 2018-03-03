@@ -31,11 +31,11 @@ public final class Constants {
     public static final String UNCRYPT_FILE_EXT = ".uncrypt";
 
     public static final String PROP_BUILD_DATE = "ro.build.date.utc";
-    public static final String PROP_BUILD_VERSION = "ro.lineage.build.version";
+    public static final String PROP_BUILD_VERSION = "ro.sm.build.version";
     public static final String PROP_BUILD_VERSION_INCREMENTAL = "ro.build.version.incremental";
-    public static final String PROP_DEVICE = "ro.lineage.device";
+    public static final String PROP_DEVICE = "ro.sm.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
-    public static final String PROP_RELEASE_TYPE = "ro.lineage.releasetype";
-    public static final String PROP_UPDATER_URI = "lineage.updater.uri";
+    public static final String PROP_RELEASE_TYPE = "ro.sm.releasetype";
+    public static final String PROP_UPDATER_URI = "sm.updater.uri";
 
 }
